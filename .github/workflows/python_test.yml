@@ -19,8 +19,8 @@ jobs:
         python-version: 3.x #Replace with your desired py version
           
     - name: Install dependencies
-       run: pip install -r requirements.txt #if you have requiremts.txt
+      run: pip install -r requirements.txt #if you have requiremts.txt
         
     - name: Run tests
-       run: python -m unittest discover
+      run: python -m unittest discover
 
